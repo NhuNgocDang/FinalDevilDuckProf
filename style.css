@@ -1,0 +1,340 @@
+/*1. Create a rule for an id called 'wrapper'. Give it a background color of #FFBF40.
+Set the top margin to 20px, and the top padding to 10px. Set the border to be
+solid black, with a width of 1px. Set the width to 900px, and the left and right
+margins to 'auto'.
+*/
+#wrapper {background-color:powderblue;
+		  margin-top: 10px;
+		  padding-top: 10px;
+		  border: 1px solid black;
+		  width: 900px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  padding-bottom:20px;
+}
+/*
+2. Create a rule for all fieldset elements. Set the top margin to 5px, and the background
+color to #FFD073.
+*/
+fieldset {margin-top: 5px;
+		  background-color: #FDFEFE ;
+}
+/*
+3. Create a rule for all the legend elements descended from fieldset elements.
+Set the text color to #412C84. Set the background color to #FFD073. Set the border to 
+a 1px wide solid border with a color of #200772. Set the padding to 2px, and the font 
+weight to bold.
+
+fieldset legend {color: #412C84;
+				 background-color: #FFD073;
+				 border:1px solid #200772;
+				 padding: 2px;
+				 font-weight: bold; 
+}
+*/
+/*
+4. Create a rule for all tables. Set the margin to 5px, and the padding to 5px.
+*/
+table {margin:5px; padding: 5px;}
+		
+/*
+5. Create a rule for all td elements. Set the padding to 3px.
+*/
+td {padding:3px;}
+
+/*
+6. Create a rule for a class called 'center'. Set the text alignment to center.
+*/
+.center {text-align:center;}
+
+.center_whatsapp {
+  text-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*
+7. Create a rule for a class called 'required'. Set the text color to #FF0000;
+*/
+.required {color:#FF0000;}
+
+/*
+8. Create a rule for all <p> elements descendent of an element with an id 'content'. 
+Set the left padding to 10px
+*/
+#content p {padding-left: 10px;}
+
+.button {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #60a3bc;
+padding: 15px;
+border-radius: 20px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.button:hover {
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-image {
+  background-image:url("background.jpeg");
+  height: 400px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-2{
+  background-image:url("background2.jpg");
+  height:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-3{
+  background-image:url("background3.jpg");
+  height:100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.background-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h2{
+    text-align:center;
+    font-size: 50px;
+}
+
+/*
+9. Create a rule for all <footer> elements. Set the margin to 10px.
+*/
+footer {
+    margin:10px;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+}
+.div2{float:left;}
+
+/*
+10. Create a rule for all <p> elements that are descendent of <footer> elements. 
+Set the font size to 10pt, and the text alignment to center.
+*/
+footer p {font-size:10pt; text-align:center;}
+
+#envelopeBox{
+    width: 900px;
+    height: 300px;
+    margin:0 auto;
+}
+#envelope{
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-image: url("blue_card.png");
+}
+#envelope_back{
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-image: url("back_card.png");
+}
+#back_bleed_area{
+    border: 1px dashed rgb(0, 0, 255);
+    width: 478px;
+    height: 278px;
+    margin: 10px;
+}
+#settings{
+    width:243px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -12px;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+}
+.hutiewenzi{
+    width: 229px;
+    height: 35px;
+    display: flex;
+
+}
+.img1{
+    width: 23px;
+    height: 23px;
+    margin-top: 55px;
+    margin-left: 11px;
+}.MCN{
+    font-family: roboto-regular;
+     width: 300px;
+     height: 35px;
+     font-size: 24px;
+     line-height: 35px;
+     margin-top: 49px;
+    margin-left: 5px;
+     word-break: keep-all;
+     white-space: nowrap;
+    color: rgb(0, 0, 179);
+ }
+.JD-p{
+    width: 96px;
+    height: 35px;
+    font-family: roboto-regular;
+    font-size: 18px;
+    margin-top: 116px;
+    margin-left: 273px;
+    color: rgb(0, 0, 102);
+}
+.JD-p2{
+    width: 78px;
+    height: 35px;
+    font-family: roboto-regular;
+    margin-left: 288px;
+    margin-top: -30px;
+    word-break: keep-all;
+    white-space: nowrap;
+    font-size: 11px;
+    color: rgb(0, 0, 102);
+}
+.PAU{
+    width: 99px;
+    height: 35px;
+    margin-left: 11px;
+    font-family: roboto-regular;
+    color: rgb(0, 0, 204);
+    word-break: keep-all;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: -40px;
+}
+#paua{
+    margin-top: -25px;
+}
+#pauu{
+    margin-top: -23px;
+    margin-left: -26px;
+}
+.wangzhi{
+    margin-top: -33px;
+    margin-left: 170px;
+    font-size: 11px;
+    font-family: roboto-regular;
+    color: rgb(0, 0, 204);
+}
+
+#settings img{
+    width: 50px;
+    height: 30px;
+    margin: 10px 5px 0px 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+.top-right{
+    float: right;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.top-right-1{
+    width: 50px;
+    height: 63.6px;
+    display: block;
+    float: right;
+    margin-left: 8px;
+}
+.top-right-2{
+    width: 50px;
+    height: 63.6px;
+    display: block;
+    float: right;
+}
+.top-right-3{
+    width: 102px;
+    height: 30px;
+    display: block;
+    float: right;
+    background-color: rgb(46,162,204);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+.top-right-4{
+    width: 102px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    background-color: rgb(46,162,204);
+    border-radius: 3px;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+.top-right p{
+    margin-top: -3px;
+    font-size: 10px;
+}
+.middle-top{
+    width: 237px;
+    height: 43.5px;
+    margin-left: 5px;
+    margin-top: 215px;
+}
+.middle-top-left{
+    margin-left: 5px;
+}
+
+.EnvelopePage:hover{
+    cursor: pointer;
+}
+.fontSize:hover{
+    cursor: pointer;
+}
+.botao-wpp {
+  text-decoration: none;
+  color: #eee;
+  display: inline-block;
+  background-color: #25d366;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+}
+
+.botao-wpp:hover {
+  background-color: darken(#25d366, 5%);
+}
+
+.botao-wpp:focus {
+  background-color: darken(#25d366, 15%);
+}
+
